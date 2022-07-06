@@ -8,7 +8,7 @@ h1{
 .jac-color{
     color:orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -41,6 +41,22 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 }
-.width-half text{
-    margin-right: 30px;
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.exparience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Baby-web-developer{
+    border-left: 7px solid blue;
+}
+#Ful-stack-Developer{
+    border-left: 7px solid orange;
 }
